@@ -4,7 +4,7 @@ from torch.nn import Module, Linear, ReLU, Sequential
 from torch_geometric.nn import GCNConv, GATConv, NNConv, Set2Set, global_mean_pool
 
 class GNNModel(Module):
-    def __init__(self, num_node_features=1024, hidden_dim=64, model_type='GCN'):
+    def __init__(self, num_node_features=20, hidden_dim=64, model_type='GCN'):
         super(GNNModel, self).__init__()
         self.model_type = model_type
         if model_type == 'GCN':

@@ -17,7 +17,7 @@ from torch_geometric.loader import DataLoader
 
 
 # 设置超参数和其他配置
-dataset_name = 'esol'  # 选择数据集，'bbbp', 'esol', 'lipo' 可供选择
+dataset_name = 'lipo'  # 选择数据集，'bbbp', 'esol', 'lipo' 可供选择
 use_optimized = False  # 是否使用优化后的数据集，False为原始数据集，True为优化版本
 #models_to_run = ['GCN', 'GAT', 'MPNN']  # 选择多个模型进行训练
 models_to_run = ['GCN']  # 选择多个模型进行训练
@@ -46,7 +46,7 @@ model_params = {
 # 训练超参数
 train_params = {
     'lr': 0.0001,
-    'batch_size': 64,
+    'batch_size': 128,
     'num_epochs': 100
 }
 

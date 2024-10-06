@@ -1,0 +1,2 @@
+﻿model,train_metrics,val_metrics,test_metrics
+GCN,"{'pearson_r': tensor(0.9893, device='cuda:0'), 'mae': 0.028531750444980228, 'mse': 0.004349230611171829, 'rmse': 0.05438265324953724, 'r2': 0.9777192074259969}","{'pearson_r': tensor(0., device='cuda:0'), 'mae': 0.14432956171887262, 'mse': 0.04606067602123533, 'rmse': 0.21156222692557744, 'r2': 0.0}","{'pearson_r': tensor(0., device='cuda:0'), 'mae': 0.16786476331097738, 'mse': 0.064666339595403, 'rmse': 0.24036432589803422, 'r2': 0.0}"

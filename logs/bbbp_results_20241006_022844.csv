@@ -1,0 +1,2 @@
+﻿model,train_metrics,val_metrics,test_metrics
+GAT,"{'pearson_r': tensor(0.8934, device='cuda:0'), 'mae': 0.2373357220337941, 'mse': 0.0701226586332688, 'rmse': 0.2643082651954431, 'r2': 0.6502739403888345}","{'pearson_r': tensor(0., device='cuda:0'), 'mae': 0.24014843627810478, 'mse': 0.07506959419697523, 'rmse': 0.27268727496266365, 'r2': 0.0}","{'pearson_r': tensor(0., device='cuda:0'), 'mae': 0.2630469910800457, 'mse': 0.09620102494955063, 'rmse': 0.3062788099050522, 'r2': 0.0}"

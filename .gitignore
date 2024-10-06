@@ -1,0 +1,43 @@
+# Exclude checkpoint files from all directories
+**/*.ckpt
+
+# Exclude molecular structure files from all directories
+**/*.mol2
+
+# Exclude CSV files from all directories
+#**/*.csv
+
+# Exclude SMILES notation files from all directories
+**/*.smi
+
+# Exclude Excel files from all directories
+**/*.xlsx 
+
+# Exclude CSV files containing "_2024_"  
+*_2024-*.csv 
+
+**/*.pt
+**/*.pyc
+**/*.txt
+
+processed
+
+code_project_*.md
+output.zip
+code_project_gama.md
+
+
+# Do not ignore CSV files in any log_controller directories  
+!**/log_controller/**/*.csv
+
+
+
+# ignore all .DS_Store
+.DS_Store
+**/.DS_Store
+._.DS_Store
+**/._.DS_Store
+
+# ignore all file and dir in log_*
+#log_*   
+#log_*/

@@ -1,0 +1,3 @@
+﻿model,train_pearson_r,val_pearson_r,test_pearson_r
+GCN,-7.941179921052329e-07,,
+GAT,,,
